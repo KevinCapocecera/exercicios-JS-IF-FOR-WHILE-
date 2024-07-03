@@ -1,7 +1,11 @@
+//Solicita a idade do usuário e a armazena na variável idade
 var idade = parseInt(prompt("Digite sua idade"))
 
+//Verifica se a idade é maior ou igual a 18
 if (idade >= 18){
-document.write("Você é maior de idade")
+//Se verdadeiro, exibe a mensagem "Você é maior de idade"
+    document.write("Você é maior de idade")
 }else if (idade < 18){
-document.write("Você é menor de idade")
+//Se falso, exibe a mensagem "Você é menor de idade"
+    document.write("Você é menor de idade")
 }
