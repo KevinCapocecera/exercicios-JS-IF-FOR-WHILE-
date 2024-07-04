@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 20</title>
+</head>
+
+<body>
+
+    <script>
+        var num = 0
+        var soma1 = 0
+        var soma2 = 0
+        var continuar = 0
+
+
+        while(continuar == 0){
+            num = parseInt(prompt("Digite um numero"))
+            if(num > 0){
+                soma1 = soma1 + num
+            }else if(num < 0){
+                soma2 = soma2 + num
+            }
+            continuar = parseInt(prompt("Deseja continuar? 0 para sim e 1 para não"))
+
+        }
+        document.write("A soma dos positivos foi: " + soma1 + "<br>" + " A soma dos negativos foi: " + soma2)
+
+    </script>
+
+
+</body>
+
+</html>

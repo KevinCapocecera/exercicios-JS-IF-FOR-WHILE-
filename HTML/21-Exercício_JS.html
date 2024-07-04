@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 21</title>
+</head>
+
+<body>
+
+    <script>
+        var numero = parseInt(prompt("Digite um numero"))
+        var contadorDivisores = 0
+
+        for (var i = 0; i <= numero; i++){
+            if (numero % i == 0){
+                contadorDivisores++
+            }
+        }
+        document.write("O numero " + numero + " tem " + contadorDivisores + " divisores")
+      
+    </script>
+
+
+</body>
+
+</html>
